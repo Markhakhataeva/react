@@ -1,8 +1,146 @@
 body {
   margin: 0;
-  background-color: rgb(153, 71, 128);
-  font-size: 15px;
-  
+
 
 }
 
+.App{
+  width: 1440px;
+  margin: auto;
+}
+.Header{width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+ 
+}
+
+.Logo{
+  width: 41px;
+  height: 39px;
+}
+
+.Header_button{
+  width: 200px;
+  border: 1px solid #F7941E;
+  font-size: 18px;
+  padding:10px;
+  background-color:rgba(196, 196, 196, 1);
+  color:   #F7941E;
+  border-radius: 8px;
+}
+
+.Menu{
+  width: 350px;
+  list-style: none;
+  display: flex
+  ;
+  justify-content: space-around;
+  
+}
+.wrapper{
+  padding-top: 20px;
+}
+
+
+.blocks_wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.left_block_txt{
+  width: 50%;
+  text-align: center;
+  background-color:  rgba(241, 241, 242, 1);
+  padding-top: 10%;
+
+}
+.left_block_txt2{
+  width: 50%;
+  text-align: center;
+  background-color:  rgba(241, 241, 242, 1);
+  padding-top: 10%;
+
+}
+.left_block_txt>p{
+  width: 440px;
+  margin: auto;
+  font-size: 20px;
+  font-weight: 400;
+}
+.left_block_txt2>p{
+  width: 440px;
+  margin: auto;
+  font-size: 20px;
+  font-weight: 400;
+}
+.left_block_txt>h2{
+  font-size: 56px;
+}
+.left_block_txt2>h2{
+  font-size: 26px;
+}
+
+.contentButtonClass{
+  background-color:  #F7941E;
+  color: white;
+  border: 1px solid  #F7941E;
+  width: 180px;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+.contentButtonClass_2{
+  background-color:  rgba(241, 241, 242, 1);
+  font-size: 18px;
+  color: #F7941E;
+  border: 1px solid  #F7941E;
+  width: 180px;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+
+.Gifts_Occasions{
+margin-top: 50px;
+
+}
+.Gifts_Occasions>h2{
+  text-align: center;
+}
+.Gifts_Occasions>span{
+  display: block;
+  text-align: center;
+}
+.card_body{display: flex;
+  justify-content: space-between
+;
+padding-top: 50px;}
+
+.occasion-card-item{
+box-shadow: 5px 4px 20px 0px grey;
+height: 435px;
+width: 270px;
+background-color: rgba(250, 250, 250, 1);
+;
+
+
+}
+
+.card-name{
+  padding: 15px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.see_more>a{
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 15px
+}
+.see_more{margin-top: 70px;}
